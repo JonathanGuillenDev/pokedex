@@ -15,8 +15,9 @@ body {
 }
 
 h1 {
-  letter-spacing: .2em;
+  letter-spacing: .1em;
   margin: 1em;
+  font-size: 3em;
 }
 
 h3 {
@@ -25,10 +26,12 @@ h3 {
 }
 
 .intro {
-  letter-spacing: .8px;
+  letter-spacing: .08em;
   margin: 1.1em;
   max-width: 1000px;
-  font-weight: bolder;
+  line-height: 1.35em;
+  font-size: small;
+  font-weight: bold;
 }
 
 .hp {
