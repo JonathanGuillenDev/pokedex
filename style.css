@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #b4b4b488;
+  font-family: 'luto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: .2em;
+  margin: 1em;
+}
+
+h3 {
+  text-align: left;
+  margin-top: -.35em;
+}
+
+.intro {
+  letter-spacing: .8px;
+  margin: 1.1em;
+  max-width: 1000px;
+  font-weight: bolder;
+}
+
+.hp {
+  text-align: right;
+  font-weight: bold;
+  margin-top: -17.5%;
+  color: crimson;
+}
+
+.species{
+  text-align: left;
+  font-weight: bold;
+  font-size: .76em;
+  line-height: .1em;
+  margin-top: .4em;
+}
+
+.banner {
+  width: 72%;
+  max-width: 1000px;
+  height: auto;
+}
+
+.poke-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pokemon {
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.3);
+  margin: 7px;
+  text-align: center;
+  width: 260px;
+  height: 388px;
+  padding: 10px;
+  border: 10px solid gold;
+  border-radius: 20px;
+}
+
+.pokemon .img-container {
+  background-color: rgba(255, 255, 255, 0.219);
+  width: 100%;
+  height: 145px;
+  border: 5px gold outset;
+  box-shadow: 3px 3px 10px #58585831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pokemon .img-container .number {
+  background-color: rgba(193, 193, 193, 0.2);
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 0.75em;
+}
+
+.pokemon .img-container img {
+  height: 9.4em;
+}
+
+.pokemon .info {
+  margin-top: 25px;
+}
+
+.pokemon .info .number {
+  font-size: 0.73em;
+  font-weight: bolder;
+  text-align: right;
+  margin-top: -2em;
+  margin-right: .5em;
+  color: gold;
+}
+
+.pokemon .info .name {
+  margin: 7px;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+}
+
+.pokemon .info .xp {
+  font-weight: bold;
+  line-height: 66%;
+  font-size: .75em;
+  text-align: left;
+  margin-left: .5em;
+}
+
+.pokemon .info .type {
+  font-weight: bold;
+  line-height: 25%;
+  font-size: .93em;
+  margin-top: -.05em;
+}
+
+.pokemon .info .typesmall {
+  margin: 10px 0 7px;
+  font-weight: bold;
+  line-height: 66%;
+  font-size: .8em;
+}
+
+.stats {
+  display: flex;
+}
+
+.left {
+  flex: 50%;
+  text-align: left;
+  margin-left: 3em;
+}
+
+.right {
+  flex: 50%;
+  text-align: right;
+  margin-right: 3em;
+}
